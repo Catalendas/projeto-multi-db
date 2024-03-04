@@ -4,9 +4,22 @@ Esse projeto tem como principal objetivo aprender e aperfeiçoar as abilidades e
 
 Nesse projeto estou fazendo a comunicação entre dois bancos de dados, um é o postgres e o outro o mongodb.
 
+Nele também definimos por utilizar testes automatizados com a biblioteca mocha
+
 Utilizo a plataforma do docker para a contanerização.
 
 comandos para a criação do container postgres
+
+para testar o projeto é necessario ter instalado no seu computador:
+
+- node.js
+- docker
+
+baixe o projeto, rode o comando: 
+``` npm i```
+
+depois rode os comando abaixo no seu prompt para fazer a intalação e criação das imagens do docker
+
 
 ```
     docker run \
